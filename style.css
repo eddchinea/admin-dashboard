@@ -41,6 +41,9 @@ html, body {
     gap: 16px;
 }
 
+.search-icon {
+    align-self: center;
+}
 
 input[type="search"] {
     width: 100%;
