@@ -67,11 +67,6 @@ input[type="search"] {
     justify-self: end;
 }
 
-.account-bell::before {
-    content: "🔔";
-    font-size: 20px;
-}
-
 .account-avatar {
     background-color: yellow;
     width: 32px;
@@ -127,7 +122,7 @@ button {
 .sidebar-nav {
     display: grid;
     gap: 40px;
-    padding: 20px 50px;
+    padding: 20px 20px;
 }
 
 .logo {
@@ -138,8 +133,24 @@ button {
 .nav-links {
     display: grid;
     gap: 10px;
+}
+
+.nav-links > li {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 15px;
+}
+
+.nav-links i {
+    justify-self: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.nav-links a {
     list-style: none;
-    
+    text-decoration: none;
+    color: #fff;
 }
 
 .main-content {
