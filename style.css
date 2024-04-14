@@ -164,4 +164,11 @@ input[type="search"] {
 /* MAIN CONTENT STYLES */
 .main-content {
     background-color: #E2E8F0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.your-projects {
+    grid-row: 1/3;
 }
