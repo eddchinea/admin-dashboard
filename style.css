@@ -167,6 +167,7 @@ input[type="search"] {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 25px 25px 50px 15px;
 }
 
 .your-projects {
