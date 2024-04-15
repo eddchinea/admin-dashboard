@@ -203,7 +203,7 @@ input[type="search"] {
     border-left: #F0B429 5px solid;
     border-radius: 5px;
     padding: 25px 15px 15px 15px;
-    box-shadow: 1px 1px 5px #aaaaaa;
+    box-shadow: 1px 2px 5px #ccc;
 }
 
 .project > p {
