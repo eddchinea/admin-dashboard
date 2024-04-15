@@ -100,6 +100,15 @@ input[type="search"] {
     gap: 5px;
 }
 
+.user-welcome {
+    font-weight: bold;
+}
+
+.user-welcome p {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
 .account-actions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
