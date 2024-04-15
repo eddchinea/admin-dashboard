@@ -71,7 +71,7 @@ input[type="search"] {
 }
 
 .account-avatar {
-    background-color: yellow;
+    background-color: #F0B429;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -87,7 +87,7 @@ input[type="search"] {
 .user-avatar {
     width: 50px;
     height: 50px;
-    background-color: yellow;
+    background-color: #F0B429;
     border-radius: 50%;
 }
 
