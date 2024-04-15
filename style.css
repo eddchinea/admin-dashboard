@@ -147,8 +147,9 @@ input[type="search"] {
 }
 
 .nav-links {
+    font-size: 0.9rem;
     display: grid;
-    gap: 10px;
+    gap: 15px;
 }
 
 .nav-links > li {
