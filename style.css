@@ -240,6 +240,11 @@ input[type="search"] {
 
 /* Announcements Section Styles */
 
+.anns {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
 .anns-container {
     background-color: #fff;
     border-radius: 5px;
