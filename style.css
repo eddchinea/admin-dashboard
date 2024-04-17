@@ -187,6 +187,8 @@ input[type="search"] {
 /* Projects Section Styles */
 .your-projects {
     grid-row: 1/3;
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 .section-header {
@@ -260,6 +262,11 @@ input[type="search"] {
 }
 
 /* Trending Section Styles */
+
+.trending {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
 
 .trending-container {
     background-color: #fff;
